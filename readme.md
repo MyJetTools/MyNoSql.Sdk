@@ -1,8 +1,6 @@
 # MyNoSql.Sdk
 
-**A simple library for DotNet [MyNoSql] [mynosqllink] DB interation  integration.**
-
-[mynosqllink]: https://github.com/MyJetTools/MyNoSqlServer
+**A simple library for DotNet [MyNoSql](https://github.com/MyJetTools/MyNoSqlServer) DB  integration.**
 
 **Client library:**
 * ![MyNoSqlServer.DataReader](https://img.shields.io/nuget/v/MyNoSql.Sdk?label=MyNoSql.Sdk)
