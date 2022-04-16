@@ -8,6 +8,7 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+        <PackageReference Include="MyNoSqlServer.Abstractions" Version="1.2.6" />
         <PackageReference Include="MyNoSqlServer.DataReader" Version="1.7.3" />
         <PackageReference Include="MyNoSqlServer.DataWriter" Version="1.7.3" />
     </ItemGroup>
