@@ -7,12 +7,14 @@ namespace MyNoSql.Sdk;
 
 public static class MyNoSqlDiHelper
 {
-    public static void CreateAndRegisterMyNoSqlClient(this IServiceCollection builder, Func<string> readerHostPort,
+    public static MyNoSqlTcpClient CreateAndRegisterMyNoSqlClient(this IServiceCollection builder, Func<string> readerHostPort,
         string appName)
     {
         var myNoSqlClient = new MyNoSqlTcpClient(readerHostPort, appName);
 
         builder.AddSingleton(myNoSqlClient);
+        
+        return myNoSqlClient;
     }
 
     public static void StartMyNoSqlClient(this IServiceProvider serviceProvider)
