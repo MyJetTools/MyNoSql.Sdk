@@ -4,6 +4,8 @@
 
 [mynosqllink]: https://github.com/MyJetTools/MyNoSqlServer
 
+**Client library:**
+* ![MyNoSqlServer.DataReader](https://img.shields.io/nuget/v/MyNoSql.Sdk?label=MyNoSql.Sdk)
 
 
 Setup and run client:
